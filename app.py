@@ -16,7 +16,7 @@ class_names = ['Airplane', 'Automobile', 'Bird', 'Cat', 'Deer',
 
 # Streamlit UI
 st.title("Image Classifier using CIFAR 10 Dataset")
-st.markdown("Upload an image to see the classification")
+st.markdown("Upload a 32x32 color image to check the classification in within the CIFAR 10 Dataset")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
